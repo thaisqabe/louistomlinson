@@ -1,0 +1,32 @@
+paleta{
+    color: #800e13;
+    color: #780116
+}
+.navbar{
+    background-color:#780116 ;
+    padding: 1%;
+}
+
+.nav-link, .navbar-brand{
+    color: black;
+    font-size: 1.3rem;
+}
+
+.navbar-toggler{
+    background-color: #A71E34;
+}
+
+.navbar-nav{
+    padding-right: 2.5%;
+}
+body{
+    background-color: #780116;
+}
+
+h1{
+    margin: 5%;
+    text-align: center;
+    color: black;
+    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #B21E35, 0 0 3vw #B21E35, 0 0 3vw #B21E35; /*efeito neon, destaque */
+
+}
