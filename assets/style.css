@@ -2,6 +2,43 @@ paleta{
     color: #800e13;
     color: #780116
 }
+
+.menu{
+    height: 100%;
+    width: 2%;
+    padding: 2%;
+    background-color: #780116;
+    position: fixed;
+    z-index: 100;
+}
+.botaomenu{
+    width: 2%;
+    height: 2%;
+    background-color: beige;
+    z-index: 101;
+}
+.homeicon, .bookicon, .discicon, .camicon{
+    z-index: 101;
+    position: absolute;
+    left: 32%;
+    width: 2rem;
+    height: 2rem;
+}
+.homeicon{
+    top: 25%;
+}
+
+.bookicon{
+    top: 40%;
+}
+
+.discicon{
+    top: 55%;
+}
+
+.camicon{
+    top: 70%;
+}
 .navbar{
     background-color:#780116 ;
     padding: 1%;
@@ -21,12 +58,47 @@ paleta{
 }
 body{
     background-color: #780116;
+    z-index: 10;
+}
+
+.banner{
+    margin-left: 3%;
+}
+
+section{
+    margin-left: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
 }
 
 h1{
-    margin: 5%;
+    margin-bottom: 5%;
     text-align: center;
     color: black;
-    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #B21E35, 0 0 3vw #B21E35, 0 0 3vw #B21E35; /*efeito neon, destaque */
+    text-shadow: 1vw 1vw 1vw #000, 0 0 3vw #d42e47, 0 0 3vw #e75a70, 0 0 3vw #B21E35; /*efeito neon, destaque */
 
+}
+
+p{
+    text-align: justify;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.card{
+    background-color: #720026;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+
+}
+.card:hover{
+    transform: scale(1.04);
+}
+
+.list-group-item{
+    background-color: #720026;
+    border-color: #2b2424;
+    color: black;
 }
